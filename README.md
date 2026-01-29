@@ -49,9 +49,9 @@ pnpm add -D typescript
 Crie um arquivo `eslint.config.mjs` na raiz do projeto:
 
 ```javascript
-import whoisfreire from '@whoisfreire/eslint-config'
+import config from '@whoisfreire/eslint-config'
 
-export default whoisfreire
+export default config
 ```
 
 ### 2. Estender e customizar
@@ -59,10 +59,10 @@ export default whoisfreire
 Você pode estender a configuração e adicionar suas próprias regras ou arquivos:
 
 ```javascript
-import whoisfreire from '@whoisfreire/eslint-config'
+import config from '@whoisfreire/eslint-config'
 
 export default [
-  ...whoisfreire,
+  ...config,
   {
     languageOptions: {
       parserOptions: {
@@ -82,9 +82,9 @@ export default [
 O pacote exporta também uma config específica para ambiente Node (com globals do Node e regras ajustadas). Para usar:
 
 ```javascript
-import nodeConfig from '@whoisfreire/eslint-config/node.mjs'
+import config from '@whoisfreire/eslint-config/node.mjs'
 
-export default nodeConfig
+export default config
 ```
 
 Ou combinando com a base e outros ajustes:
