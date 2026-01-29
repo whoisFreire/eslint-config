@@ -1,0 +1,11 @@
+{
+  "name": "@whoisfreire/eslint-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2"
+}
