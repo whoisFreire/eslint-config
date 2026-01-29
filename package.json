@@ -2,6 +2,7 @@
   "name": "@whoisfreire/eslint-config",
   "version": "1.0.1",
   "private": false,
+  "url": "https://github.com/whoisfreire/eslint-config",
   "description": "Custom ESLint configuration for WhoIsFreire projects. Based on Rocketseat ESLint custom configuration.",
   "main": "base.mjs",
   "license": "MIT",
