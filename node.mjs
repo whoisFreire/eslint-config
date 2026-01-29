@@ -1,3 +1,4 @@
+import globals from 'globals'
 import config from './base.mjs'
 
 export default [
