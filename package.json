@@ -2,10 +2,27 @@
   "name": "@whoisfreire/eslint-config",
   "version": "1.0.0",
   "private": false,
-  "description": "",
-  "main": "index.js",
+  "description": "Custom ESLint configuration for WhoIsFreire projects. Based on Rocketseat ESLint custom configuration.",
+  "main": "base.mjs",
+  "license": "MIT",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.28.2"
+  "author": "WhoIsFreire",
+  "packageManager": "pnpm@10.28.2",
+  "dependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "neostandard": "^0.12.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.54.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=5",
+    "eslint": ">=9"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  }
+
 }
